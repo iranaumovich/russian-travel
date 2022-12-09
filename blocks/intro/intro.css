@@ -1,0 +1,26 @@
+.intro {
+  width: 100%;
+  padding: 64px 16px 0;
+  box-sizing: border-box;
+}
+
+
+@media screen and (min-width: 768px) {
+  .intro {
+    padding: 88px 24px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    box-sizing: content-box;
+    width: 690px;
+    padding: 92px 0 0 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    padding-left: 148px;
+  }
+}

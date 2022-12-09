@@ -1,0 +1,47 @@
+.cover__container {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.cover__container::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(42, 44, 47, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.cover__container:hover::before {
+  background-color: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (min-width: 510px) {
+  .cover__container {
+    min-height: 340px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cover__container {
+    min-height: 480px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__container {
+    min-height: 640px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__container {
+    min-height: 740px;
+  }
+}
