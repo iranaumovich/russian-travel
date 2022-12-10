@@ -2,8 +2,19 @@
   font-size: 18px;
   line-height: 20px;
   color: white;
-  text-decoration: none;
-  margin-right: 15px;
+  margin-right: 18px;
+  position: relative;
+}
+
+.header__lang-link:first-of-type:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 6px;
+  right: 0;
+  border-bottom: solid 1px white;
 }
 
 .header__lang-link:last-of-type {
